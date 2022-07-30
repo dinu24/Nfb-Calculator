@@ -1,0 +1,106 @@
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #091921;
+    min-height: 100vh;
+    color: white;
+}
+
+.navbar{
+    width: 100vw;
+}
+
+.nav-link{
+    font-size: 20px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 1.8em;
+    margin-top: 0;
+    padding-top: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    width: 100vw;
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    margin: 0 0 1em;
+}
+
+.title span {
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    font-size: 50px;
+    color: rgb(95, 129, 241);
+}
+
+.row button {
+    width: 70px;
+    height: 53px;
+    font-size: 20px;
+    font-family: 'Varela Round', sans-serif;
+    border: none;
+    border-radius: 0;
+    outline: none;
+    margin: 0px;
+    color: white;
+    background-color: #152a34;
+}
+
+.btn:hover {
+    background-color: rgb(28, 146, 243);
+}
+
+.func:hover {
+    background-color: rgb(57, 242, 174);
+}
+
+#del {
+    background-color: rgb(229, 72, 72);
+}
+
+#del:hover {
+    background-color: rgb(248, 5, 5);
+}
+
+#ac {
+    background-color: rgb(0, 255, 162);
+}
+
+#ac:hover {
+    background-color: rgb(0, 247, 111);
+
+}
+
+.display #txt {
+    margin: 0;
+    width: 420px;
+    height: 90px;
+    font-size: 35px;
+    outline: none;
+    border: none;
+    text-align: right;
+    padding-right: .5em;
+    background: #ecf0f3;
+    border-radius: 0px;
+}
+
